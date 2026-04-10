@@ -1,0 +1,10 @@
+# Secrets — never commit
+00_System/.env
+
+# SQLite WAL and SHM files (transient, not needed in repo)
+*.db-wal
+*.db-shm
+
+# Windows system files
+Thumbs.db
+desktop.ini
